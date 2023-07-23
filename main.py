@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # آدرس صفحه‌ی مورد نظر
-url = "https://aiofilm.top/anime/"
+url = "https://aiofilm.org/anime/"
 
 # درخواست GET برای دریافت صفحه
 response = requests.get(url)
